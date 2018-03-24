@@ -34,5 +34,5 @@ add_custom_command(TARGET yo
     COMMAND ${CMAKE_COMMAND} -E create_symlink ${CLANG_INSTALL_PREFIX}/lib lib
     COMMAND ${CMAKE_COMMAND} -E create_symlink ${CLANG_INSTALL_PREFIX}/include include
     BYPRODUCTS bin/yo lib include
-    COMMENT work around a Clang idiosyncracy
+    COMMENT "work around a Clang idiosyncracy"
     )
